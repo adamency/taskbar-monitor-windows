@@ -1,0 +1,4 @@
+The regular expression pattern "^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$" is used to match an IPv4 address.
+This pattern matches a string that starts with three groups of one to three digits separated by a dot, followed by a fourth group of one to three digits, and nothing else.
+The ^ and $ characters anchor the pattern to the beginning and end of the string, respectively.
+The ?: syntax makes the first three groups non-capturing.
